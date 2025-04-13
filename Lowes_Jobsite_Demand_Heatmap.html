@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_3fd9dde8782e6bc94ad01d55d0278656 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_3fd9dde8782e6bc94ad01d55d0278656" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_3fd9dde8782e6bc94ad01d55d0278656 = L.map(
+                "map_3fd9dde8782e6bc94ad01d55d0278656",
+                {
+                    center: [33.0, -96.9],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 10,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_c4780f2102fcc50cf102ea89d15ab2bd = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_3fd9dde8782e6bc94ad01d55d0278656);
+        
+    
+            var circle_marker_b7f2b939012223fc2c0ae70b441570f5 = L.circleMarker(
+                [32.9618, -96.8292],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_3fd9dde8782e6bc94ad01d55d0278656);
+        
+    
+        var popup_67dc6f4d7a493a8b48c6694b5a18935d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0ed78cb580a29f63f29c6e2159db2bf0 = $(`<div id="html_0ed78cb580a29f63f29c6e2159db2bf0" style="width: 100.0%; height: 100.0%;">Zip: 75001<br>Cluster: Emerging Opportunity<br>Monthly Orders: 152<br>Permits/Month: 31<br>Distance to Lowe’s: 9.8 mi</div>`)[0];
+            popup_67dc6f4d7a493a8b48c6694b5a18935d.setContent(html_0ed78cb580a29f63f29c6e2159db2bf0);
+        
+
+        circle_marker_b7f2b939012223fc2c0ae70b441570f5.bindPopup(popup_67dc6f4d7a493a8b48c6694b5a18935d)
+        ;
+
+        
+    
+    
+            var circle_marker_6ae54c6b10f80af574895ebd4f0efd45 = L.circleMarker(
+                [33.0846, -96.6621],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_3fd9dde8782e6bc94ad01d55d0278656);
+        
+    
+        var popup_2354d6562ccdc714cbeac9eabc09f512 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a33f38fbd8c78b596f574d4db1b619d0 = $(`<div id="html_a33f38fbd8c78b596f574d4db1b619d0" style="width: 100.0%; height: 100.0%;">Zip: 75002<br>Cluster: High Demand<br>Monthly Orders: 229<br>Permits/Month: 62<br>Distance to Lowe’s: 9.8 mi</div>`)[0];
+            popup_2354d6562ccdc714cbeac9eabc09f512.setContent(html_a33f38fbd8c78b596f574d4db1b619d0);
+        
+
+        circle_marker_6ae54c6b10f80af574895ebd4f0efd45.bindPopup(popup_2354d6562ccdc714cbeac9eabc09f512)
+        ;
+
+        
+    
+    
+            var circle_marker_3a90f89a3bc2d995b5243ff7b6ec3887 = L.circleMarker(
+                [32.9687, -96.8993],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_3fd9dde8782e6bc94ad01d55d0278656);
+        
+    
+        var popup_52579816e09a4f56e24c29add9da74af = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f1bd5b3d5190a5c6dd3a45ab76b5ab5f = $(`<div id="html_f1bd5b3d5190a5c6dd3a45ab76b5ab5f" style="width: 100.0%; height: 100.0%;">Zip: 75006<br>Cluster: Emerging Opportunity<br>Monthly Orders: 142<br>Permits/Month: 11<br>Distance to Lowe’s: 1.6 mi</div>`)[0];
+            popup_52579816e09a4f56e24c29add9da74af.setContent(html_f1bd5b3d5190a5c6dd3a45ab76b5ab5f);
+        
+
+        circle_marker_3a90f89a3bc2d995b5243ff7b6ec3887.bindPopup(popup_52579816e09a4f56e24c29add9da74af)
+        ;
+
+        
+    
+    
+            var circle_marker_55c9d3e3090b6912676a2a15e3af74db = L.circleMarker(
+                [33.0303, -96.8975],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_3fd9dde8782e6bc94ad01d55d0278656);
+        
+    
+        var popup_cd57b647601869a7abbc14d535b8c675 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2d965132cc7e5e165d177b533ff74e3e = $(`<div id="html_2d965132cc7e5e165d177b533ff74e3e" style="width: 100.0%; height: 100.0%;">Zip: 75010<br>Cluster: Emerging Opportunity<br>Monthly Orders: 64<br>Permits/Month: 33<br>Distance to Lowe’s: 1.8 mi</div>`)[0];
+            popup_cd57b647601869a7abbc14d535b8c675.setContent(html_2d965132cc7e5e165d177b533ff74e3e);
+        
+
+        circle_marker_55c9d3e3090b6912676a2a15e3af74db.bindPopup(popup_cd57b647601869a7abbc14d535b8c675)
+        ;
+
+        
+    
+    
+            var circle_marker_9913ca717801cd7de7574b2aecfadb97 = L.circleMarker(
+                [32.9618, -96.9918],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_3fd9dde8782e6bc94ad01d55d0278656);
+        
+    
+        var popup_e38e50740c24c9c9e74bd14e429f99f1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3b4ca8c35bdb82fd388597727897f189 = $(`<div id="html_3b4ca8c35bdb82fd388597727897f189" style="width: 100.0%; height: 100.0%;">Zip: 75019<br>Cluster: Emerging Opportunity<br>Monthly Orders: 156<br>Permits/Month: 53<br>Distance to Lowe’s: 8.6 mi</div>`)[0];
+            popup_e38e50740c24c9c9e74bd14e429f99f1.setContent(html_3b4ca8c35bdb82fd388597727897f189);
+        
+
+        circle_marker_9913ca717801cd7de7574b2aecfadb97.bindPopup(popup_e38e50740c24c9c9e74bd14e429f99f1)
+        ;
+
+        
+    
+    
+            var circle_marker_4ce2dd6406a5bab45618c81ad744e172 = L.circleMarker(
+                [33.0555, -96.7362],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_3fd9dde8782e6bc94ad01d55d0278656);
+        
+    
+        var popup_21a951df8a88bb7831c15e9b56f23e59 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c3da8f3f4eea19724ee865586a74973c = $(`<div id="html_c3da8f3f4eea19724ee865586a74973c" style="width: 100.0%; height: 100.0%;">Zip: 75023<br>Cluster: Low Priority<br>Monthly Orders: 136<br>Permits/Month: 15<br>Distance to Lowe’s: 7.7 mi</div>`)[0];
+            popup_21a951df8a88bb7831c15e9b56f23e59.setContent(html_c3da8f3f4eea19724ee865586a74973c);
+        
+
+        circle_marker_4ce2dd6406a5bab45618c81ad744e172.bindPopup(popup_21a951df8a88bb7831c15e9b56f23e59)
+        ;
+
+        
+    
+    
+            var circle_marker_16828ee24e6358396d66cd917b4ed9ea = L.circleMarker(
+                [33.076, -96.8211],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_3fd9dde8782e6bc94ad01d55d0278656);
+        
+    
+        var popup_531c5e18a8007d0cf61cb83b50e6dc70 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fe97eae1d00b8cbc538d0ca03df05496 = $(`<div id="html_fe97eae1d00b8cbc538d0ca03df05496" style="width: 100.0%; height: 100.0%;">Zip: 75024<br>Cluster: Emerging Opportunity<br>Monthly Orders: 168<br>Permits/Month: 37<br>Distance to Lowe’s: 13.4 mi</div>`)[0];
+            popup_531c5e18a8007d0cf61cb83b50e6dc70.setContent(html_fe97eae1d00b8cbc538d0ca03df05496);
+        
+
+        circle_marker_16828ee24e6358396d66cd917b4ed9ea.bindPopup(popup_531c5e18a8007d0cf61cb83b50e6dc70)
+        ;
+
+        
+    
+    
+            var circle_marker_f3bd8ad9d310342e692b23c86892d797 = L.circleMarker(
+                [33.0412, -97.058],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_3fd9dde8782e6bc94ad01d55d0278656);
+        
+    
+        var popup_59ec7847e969dcabe65ca40b64aa9995 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_139ccbc238a629cc076bd4a34500413a = $(`<div id="html_139ccbc238a629cc076bd4a34500413a" style="width: 100.0%; height: 100.0%;">Zip: 75028<br>Cluster: Low Priority<br>Monthly Orders: 72<br>Permits/Month: 36<br>Distance to Lowe’s: 12.0 mi</div>`)[0];
+            popup_59ec7847e969dcabe65ca40b64aa9995.setContent(html_139ccbc238a629cc076bd4a34500413a);
+        
+
+        circle_marker_f3bd8ad9d310342e692b23c86892d797.bindPopup(popup_59ec7847e969dcabe65ca40b64aa9995)
+        ;
+
+        
+    
+    
+            var circle_marker_ac9806dc6014359672b0f785f6de377e = L.circleMarker(
+                [33.1434, -96.839],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_3fd9dde8782e6bc94ad01d55d0278656);
+        
+    
+        var popup_e33c62a32745ac920cc9e2545c235326 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2dc7a81f84ac8cde0c55ba88db7bce76 = $(`<div id="html_2dc7a81f84ac8cde0c55ba88db7bce76" style="width: 100.0%; height: 100.0%;">Zip: 75034<br>Cluster: High Demand<br>Monthly Orders: 204<br>Permits/Month: 57<br>Distance to Lowe’s: 2.2 mi</div>`)[0];
+            popup_e33c62a32745ac920cc9e2545c235326.setContent(html_2dc7a81f84ac8cde0c55ba88db7bce76);
+        
+
+        circle_marker_ac9806dc6014359672b0f785f6de377e.bindPopup(popup_e33c62a32745ac920cc9e2545c235326)
+        ;
+
+        
+    
+    
+            var circle_marker_f16fddfbc005a8da24021372c41b4fc9 = L.circleMarker(
+                [32.8721, -96.985],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_3fd9dde8782e6bc94ad01d55d0278656);
+        
+    
+        var popup_de2ac532c39defc3434fa0cc63bb4d70 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a498183ed1f57eb78094ea8d162a3c3f = $(`<div id="html_a498183ed1f57eb78094ea8d162a3c3f" style="width: 100.0%; height: 100.0%;">Zip: 75038<br>Cluster: Low Priority<br>Monthly Orders: 101<br>Permits/Month: 35<br>Distance to Lowe’s: 10.3 mi</div>`)[0];
+            popup_de2ac532c39defc3434fa0cc63bb4d70.setContent(html_a498183ed1f57eb78094ea8d162a3c3f);
+        
+
+        circle_marker_f16fddfbc005a8da24021372c41b4fc9.bindPopup(popup_de2ac532c39defc3434fa0cc63bb4d70)
+        ;
+
+        
+    
+</script>
+</html>
