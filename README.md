@@ -47,7 +47,7 @@ Automated the ETL workflow using AWS Glue and Amazon S3 for clean data storage.
 Hosted ML models in Amazon SageMaker and monitored outcomes with CloudWatch.
 Published interactive dashboards on Amazon QuickSight for continuous business insight.
 
-5️⃣ Strategic Recommendation
+5️⃣ Strategic Recommendations
 
 Provided data-backed delivery prioritization strategies to optimize driver routing and scheduling.
 Designed a regional expansion roadmap based on recurring high-demand clusters.
@@ -59,24 +59,35 @@ Proposed proactive scaling for logistics capacity ahead of seasonal peaks.
 AWS Services:
 
 Amazon S3
+
 AWS Glue
+
 Amazon SageMaker
+
 Amazon QuickSight
+
 AWS Lambda
+
 Amazon CloudWatch
 
 Technical Tools:
 
 Python
+
 Pandas
+
 Scikit-Learn
+
 Tableau
 
 Skills Applied:
 
 Predictive Modeling
+
 Market Segmentation
+
 Route Optimization
+
 Data Visualization
 
 
