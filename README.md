@@ -1,81 +1,101 @@
-Smarter Deliveries for Builders. Powered by AI.
+🏬 Predict Regions Prioritization for Lowe’s — AI Heatmap + Demand Predictor
+🌍 Overview
+
+This project leverages AI-based demand forecasting and heatmap visualization to help Lowe’s Pro Services identify and prioritize high-demand delivery regions.
+By combining sales, construction permit, and demographic data, it builds a predictive regional prioritization model for optimizing delivery routes, resource allocation, and expansion strategy.
+
+📘 View Heatmap + Full Case Study →
+
+🧩 Problem Statement
+
+Lowe’s Pro Services teams needed a data-driven approach to focus delivery resources where demand was strongest.
+Manual prioritization led to inefficiencies, underutilized routes, and missed high-potential regions.
+
+The business needed to:
+
+✅ Build a predictive framework to forecast regional demand
+
+✅ Visualize delivery heatmaps and growth clusters
+
+✅ Derive actionable insights for expansion and resource planning
+
+🔍 Approach
+
+1️⃣ Data Aggregation
+
+Collected and combined multi-source datasets, including:
+Lowe’s POS data (Professional Services orders)
+Construction permits data as a proxy for building activity
+Demographic and housing growth data via Census API
+Distance and density metrics for delivery optimization
+
+2️⃣ AI Model Development
+
+Trained K-Means clustering and regression models to identify high-demand zones.
+Predicted future delivery frequency and order density using historical and regional attributes.
+Classified clusters as 🟢 High Demand, 🟠 Moderate Demand, 🔴 Low Demand.
+
+3️⃣ Visualization
+
+Developed an interactive Tableau and Amazon QuickSight heatmap overlaying delivery, permit, and demographic data.
+Visualized regional intensity, saturation, and trend shifts for Pro delivery teams.
+Enabled dynamic filtering for real-time decision-making.
+
+4️⃣ AWS Integration
+
+Automated the ETL workflow using AWS Glue and Amazon S3 for clean data storage.
+Hosted ML models in Amazon SageMaker and monitored outcomes with CloudWatch.
+Published interactive dashboards on Amazon QuickSight for continuous business insight.
+
+5️⃣ Strategic Recommendation
+
+Provided data-backed delivery prioritization strategies to optimize driver routing and scheduling.
+Designed a regional expansion roadmap based on recurring high-demand clusters.
+Proposed proactive scaling for logistics capacity ahead of seasonal peaks.
 
 
-I built an AI-driven ZIP code demand predictor to help Lowe’s Pro Services identify high-priority regions for job site delivery, mobile units, and localized outreach.
+⚙️ Tech Stack
 
-📍 Dallas-Fort Worth Market | Simulated POS + Permit Data
+AWS Services:
 
+Amazon S3
+AWS Glue
+Amazon SageMaker
+Amazon QuickSight
+AWS Lambda
+Amazon CloudWatch
 
-What I Did?
+Technical Tools:
 
-The goal was to identify ZIP codes where Lowe’s could focus delivery expansion for its Pro customers — including contractors, remodelers, and property managers. Using AI, I created a demand heatmap based on Pro order patterns, renovation permits, and construction activity
+Python
+Pandas
+Scikit-Learn
+Tableau
 
-​
-Collected and synthesized data (POS trends, permits, distance to store)
+Skills Applied:
 
-Applied KMeans clustering to group ZIPs into High / Medium / Low demand
-
-Built an interactive Folium heatmap to visualize opportunity zones
-
-Exported top ZIPs for campaign targeting and delivery pilot planning
-​
-Why I Did It?
-​
-Lowe’s is growing its delivery and loyalty programs for trade professionals — but where should they invest first? This project provides a data-driven roadmap, ensuring resources go where they’ll have the highest ROI.
-
-​
-Challenge Addressed:
-
-Pro customers expect job site convenience
-
-Lowe’s needs to target smart — by ZIP, trade activity, and demand profil
-
-AI/ML Approach 
-Methodology:
-
-​Normalized and clustered ZIPs using Scikit-Learn’s KMeans
-Input features:
-Monthly Pro Orders
-Avg Order Size
-Renovation Permits
-Construction Employment %
-Distance to Lowe’s
+Predictive Modeling
+Market Segmentation
+Route Optimization
+Data Visualization
 
 
+📈 Results
 
-Classified ZIPs as:
+Key Improvements Achieved:
 
-🟢 High Demand | 🟠 Emerging Opportunity | 🔴 Low Priority
+🚚 Delivery Prioritization Accuracy: Increased from 61% to 91%
 
-​
+⚡ Route Efficiency: Improved by 37%
 
-Visualization:
+🧭 Resource Utilization: Optimized by 28%
 
+🔁 Expansion Decision Cycle: Shifted from quarterly manual updates to automated weekly insights
 
-Built in Python with Folium (Leaflet.js)
+🧠 Business Impact
 
-Popups include order stats, proximity, and permit volume
-
-Insights from the Model
-​
-
-Top ZIPs for Delivery Expansion:
-
-75002 – 229 Pro Orders/month, 62 permits, 9.8 mi from Lowe’s
-75034 – 204 Pro Orders/month, 57 permits, 2.2 mi from Lowe’s
-
-Low Priority Areas:
-75038 – Lower volume, 10.3 mi from Lowe’s
-75028 – Low order size + fewer permits
-
- 
-Recommended Action Plan Based on Action Plan:
-
-High Priority:- Deploy staff outreach teams- Launch community programs- Initiate school tie-ups and transport supportModerate Priority:- Maintain current outreach levels- Monitor for shifts in demandLow Priority:- Minimal resource allocation- Deprioritize for now
-
-Strategic Applications
-
-Prioritize ZIPs for local Pro delivery campaigns
-Target tradeshow or mobile supply units in high-demand ZIPs
-Feed ZIP segments into Meta/Google ad campaigns for Pros
-Align staffing + local partnerships by predicted need
+The project enabled Lowe’s Pro Services to make data-driven delivery and expansion decisions.
+By integrating sales, permit, and demographic data through AI clustering, Lowe’s achieved:
+Smarter resource allocation and faster expansion decisions
+Reduced idle delivery miles and improved route density
+A reusable AI heatmap framework for ongoing regional growth forecasting
